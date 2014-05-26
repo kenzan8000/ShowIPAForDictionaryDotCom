@@ -1,6 +1,6 @@
 {
     "name": "Show IPA for Dictionary.com",
-    "version": "0.1",
+    "version": "0.2",
     "manifest_version": 2,
 
     "description": "Dictionary.comで単語のIPAとSpelledを両方表示します",
