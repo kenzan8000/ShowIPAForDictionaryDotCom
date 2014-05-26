@@ -1,0 +1,26 @@
+{
+    "name": "Show IPA for Dictionary.com",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "Dictionary.comで単語のIPAとSpelledを両方表示します",
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "http://dictionary.reference.com/browse/*?s=t"
+    ],
+
+    "icons": {
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "content_scripts": [
+        {
+          "matches": ["http://dictionary.reference.com/browse/*?s=t"],
+          "js": ["js/app.js"],
+          "run_at": "document_end"
+        }
+    ]
+}
