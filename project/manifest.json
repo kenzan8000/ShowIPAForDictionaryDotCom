@@ -8,7 +8,7 @@
     "permissions": [
         "tabs",
         "activeTab",
-        "http://dictionary.reference.com/browse/*?s=t"
+        "http://dictionary.reference.com/browse/*"
     ],
 
     "icons": {
@@ -18,7 +18,7 @@
 
     "content_scripts": [
         {
-          "matches": ["http://dictionary.reference.com/browse/*?s=t"],
+          "matches": ["http://dictionary.reference.com/browse/*"],
           "js": ["js/app.js"],
           "run_at": "document_end"
         }
