@@ -1,6 +1,6 @@
 {
     "name": "Show IPA for Dictionary.com",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 2,
 
     "description": "Dictionary.comで単語のIPAとSpellを両方表示します",
